@@ -1,44 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psicopata Americano</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div
+        class="logo"
+        style="display: flex; align-items: center; padding-left: 50px"
+      >
+        <img src="assets/images/logo.png" alt="Logo do site" width="200" />
+        <h1 style="padding-left: 50px; text-transform: uppercase">
+          Cinema Wiki
+        </h1>
+      </div>
+    </header>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+      <nav class="sidebar">
+        <h2>Filmes</h2>
+        <ul>
+          <li><a href="index.html">Psicopata Americano</a></li>
+          <li><a href="zoolander.html">Zoolander</a></li>
+          <li><a href="superhero.html">Super-Herói: O Filme</a></li>
+        </ul>
+      </nav>
 
-        <div class="main">
-            
-        </div>
+      <main class="main">
+        <h2 id="sobre">Tudo sobre Psicopata Americano</h2>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+        <figure>
+          <img
+            width="800px"
+            src="assets/images/poster.png"
+            alt="Poster do filme Psicopata Americano"
+          />
+          <figcaption>Poster do filme Psicopata Americano</figcaption>
+        </figure>
+
+        <p>
+          American Psycho (Psicopata Americano) é um filme de horror psicológico
+          satírico americano de 2000 coescrito e dirigido por Mary Harron,
+          baseado no romance do mesmo nome de 1991 de Bret Easton Ellis. O filme
+          tem no elenco Christian Bale, Willem Dafoe, Jared Leto, Josh Lucas,
+          Chloë Sevigny, Samantha Mathis, Cara Seymour, Justin Theroux,
+          Guinevere Turner e Reese Witherspoon.
+        </p>
+
+        <p>
+          O produtor Edward R. Pressman comprou os direitos de filmagem para o
+          romance em 1992. Após discussões com David Cronenberg caírem a parte,
+          Harron foi trazida para dirigir e elencou Bale no papel principal.
+          Lionsgate adquiriu a distribuição mundial em 1997 e temporariamente
+          substituiu Harron e Bale com Oliver Stone como diretor e Leonardo
+          DiCaprio retratando Patrick Bateman. DiCaprio saiu em favor de The
+          Beach e Harron e Bale foram trazidos de volta.
+        </p>
+
+        <p>
+          American Psycho estreou no Sundance Film Festival em 21 de janeiro de
+          2000, e foi lançado nos cinemas em 14 de abril de 2000. O filme foi um
+          sucesso financeiro e recebeu geralmente revisões positivas, com
+          particular elogio direcionado para a performance de Bale e o roteiro.
+          Tem desde então desenvolvido um seguimento cult.
+        </p>
+
+        <h2 id="sinopse">Sinopse</h2>
+
+        <p>
+          Em 1987, a vida de um rico banqueiro de investimentos de Nova Iorque,
+          Patrick Bateman, gira ao redor de jantar em restaurantes chiques
+          enquanto mantém as aparências para sua noiva Evelyn e seu círculo de
+          associados ricos, a maioria de quem ele desgosta. Bateman descreve os
+          apetrechos materiais de seu estilo de vida, incluindo seu diário
+          exercício matinal, rotina de embelezamento, guarda-roupa estilístico e
+          mobília cara. Ele também discute sua coleção de música, na qual inclui
+          Huey Lewis and the News, Phil Collins e Whitney Houston..
+        </p>
+
+        <h2 id="trailer">Trailer</h2>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/zWYJurAqlSY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <h2 id="elenco">Elenco</h2>
+
+        <ul>
+          <li>Christian Bale como Patrick Bateman</li>
+          <li>Willem Dafoe como Detective Donald Kimball</li>
+          <li>Jared Leto como Paul Allen</li>
+          <li>Josh Lucas como Craig McDermott</li>
+          <li>Samantha Mathis como Courtney Rawlinson</li>
+          <li>Matt Ross como Luis Carruthers</li>
+          <li>Bill Sage como David Van Patten</li>
+          <li>Chloë Sevigny como Jean</li>
+          <li>Cara Seymour como Christie</li>
+          <li>Justin Theroux como Timothy Bryce</li>
+          <li>Guinevere Turner como Elizabeth</li>
+          <li>Reese Witherspoon como Evelyn Williams</li>
+          <li>Krista Sutton como Sabrina</li>
+          <li>Stephen Bogaert como Harold Carnes</li>
+        </ul>
+      </main>
+
+      <aside class="anchors">
+        <h2>Nesta Página</h2>
+        <ul>
+          <li><a href="#sobre">Sobre Psicopata Americano</a></li>
+          <li><a href="#sinopse">Sinopse</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+          <li><a href="#elenco">Elenco</a></li>
+        </ul>
+      </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
-</body>
+    <footer class="footer"></footer>
+  </body>
 </html>
